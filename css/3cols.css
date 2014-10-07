@@ -1,0 +1,52 @@
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+	
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 35.26%; 
+	
+	
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 96%;
+		
+		
+		
+	}
+	.span_2_of_3 {
+		width: 100%; 
+		
+	}
+	.span_1_of_3 {
+		width: 100%;
+		
+	}
+	
+	
+}
+
+
+@media only screen and (max-width:  480px) {
+
+   h1 {
+      font-size: 3em;
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+
+}

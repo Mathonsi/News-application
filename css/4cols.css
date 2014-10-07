@@ -1,0 +1,65 @@
+/*  GRID OF FOUR   ============================================================================= */
+
+	
+.span_4_of_4 {
+	width: 80%; 
+}
+
+.span_3_of_4 {
+	width: 80.6%; 
+}
+
+.span_2_of_4 {
+	width:  49.2%; ; 
+}
+
+.span_1_of_4 {
+	width:  24.2%; ; 
+	
+	margin: 1px;
+
+	 
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.span_4_of_4 {
+		width: 100%; 
+	}
+	.span_3_of_4 {
+		width: 100%; 
+	}
+	.span_2_of_4 {
+		width: 100%; 
+	}
+	.span_1_of_4 {
+		width: 50%;
+		margin: 0;
+		
+		
+	}
+	.span_1_of_4 img {
+		height: 120px;
+		width: 97%;
+		
+		}
+		
+		.span_3_of_3 img {
+		height: 120px;
+		width: 95%;
+		}
+
+		.section {
+		width: 122%; 
+	}
+}
+
+@media only screen and (max-width: 768px) { 
+         .span_3_of_3 img {
+	
+		width: 100%;
+		}
+
+
+}
